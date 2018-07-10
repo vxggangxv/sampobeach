@@ -5,7 +5,7 @@
 .contents .subVisual {background: #eee url(../../../img/event/subVisual.jpg) no-repeat center;}
 
 /*공통스타일*/
-.contents .cmStyle {padding: 50px 0;}
+.contents .wrap.cmStyle {padding: 50px 0;}
 
 /*이벤트*/
 .contents .event:nth-child(2n-1) {background: #f1f1f1;}

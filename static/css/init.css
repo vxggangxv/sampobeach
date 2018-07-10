@@ -22,14 +22,14 @@
 .contents .main .weather .area img {position: absolute; right: 0; bottom: 0;}
 
 /*공통스타일*/
-.contents .cmStyle {padding: 50px 0;}
-.contents .cmStyle .tit {font-size: 34px;}
-.contents .cmStyle .tit .sampo {text-transform: uppercase; font-size: 16px; display: block; text-indent: 2px; margin-bottom: 2px;}
-.contents .cmStyle .tit .plus {position: relative; display: inline-block; width: 42px; height: 42px; box-sizing: border-box; border: 1px solid #a8a8a8; border-radius: 50%; vertical-align: middle; background: #fff; top: -4px; margin-left: 5px;}
-.contents .cmStyle .tit .plus .obj {display: block; position: relative; width: 100%; height: 100%;}
-.contents .cmStyle .tit .plus .obj:before, .contents .cmStyle .tit .plus .obj:after {content: ""; display: block; position: absolute;}
-.contents .cmStyle .tit .plus .obj:before {width: 15px; height: 1px; background: #a4a4a4; left: 50%; margin-left: -7px; top: 50%;}
-.contents .cmStyle .tit .plus .obj:after {width: 1px; height: 15px; background: #a4a4a4; left: 50%; margin-top: -7px; top: 50%;}
+.contents .wrap.cmStyle {padding: 50px 0;}
+.contents .wrap.cmStyle .tit {font-size: 34px;}
+.contents .wrap.cmStyle .tit .sampo {text-transform: uppercase; font-size: 16px; display: block; text-indent: 2px; margin-bottom: 2px;}
+.contents .wrap.cmStyle .tit .plus {position: relative; display: inline-block; width: 42px; height: 42px; box-sizing: border-box; border: 1px solid #a8a8a8; border-radius: 50%; vertical-align: middle; background: #fff; top: -4px; margin-left: 5px;}
+.contents .wrap.cmStyle .tit .plus .obj {display: block; position: relative; width: 100%; height: 100%;}
+.contents .wrap.cmStyle .tit .plus .obj:before, .contents .wrap.cmStyle .tit .plus .obj:after {content: ""; display: block; position: absolute;}
+.contents .wrap.cmStyle .tit .plus .obj:before {width: 15px; height: 1px; background: #a4a4a4; left: 50%; margin-left: -7px; top: 50%;}
+.contents .wrap.cmStyle .tit .plus .obj:after {width: 1px; height: 15px; background: #a4a4a4; left: 50%; margin-top: -7px; top: 50%;}
 
 
 /*이벤트*/
@@ -67,7 +67,7 @@
 .contents .tourist .area .h3-tit > * {vertical-align: middle;}
 .contents .tourist .area .h3-tit .sampo {text-transform: uppercase; font-size: 16px; display: inline-block; text-indent: 2px; margin-bottom: 4px;}
 .contents .tourist .area .h3-tit:before {content: ""; display: inline-block; width: 10px; height: 25px; background: #c0c0c0; vertical-align: middle; margin-right: 10px;}
-.contents .tourist .area .list > li {float: left; width: 280px; margin-left: 20px;}
+.contents .tourist .area .list > li {float: left; width: 280px; margin-left: 20px; overflow: hidden;}
 .contents .tourist .area .list > li:first-child {margin-left: 0;}
 .contents .tourist .area .list > li .tour-img {border: 1px solid #a19e9f; width: 280px; height: 160px; box-sizing: border-box;}
 .contents .tourist .area .list > li dl {margin-top: 15px; letter-spacing: -0.9px;}
@@ -76,12 +76,12 @@
 .contents .tourist .area .list > li dl dd {font-size: 16px; color: #4c4c4c; line-height: 1.5;}
 
 /*오시는길*/
-.contents .wayto {background: #f5f5f5; padding: 55px 0 70px;}
-.contents .wayto [class*=way-] {position: relative;}
-.contents .wayto .way-info {}
-.contents .wayto .way-info .p-1 {margin-top: 30px; font-size: 22px; font-weight: 700;}
-.contents .wayto .way-info dl {font-size: 18px; line-height: 1.6;}
-.contents .wayto .way-info dt {font-weight: 700; margin-top: 3px;}
-.contents .wayto .way-info dd {padding-left: 5px;}
-.contents .wayto .way-info {float: left;}
-.contents .wayto .way-map {float: right;}
+.contents .waycome {background: #f5f5f5; padding: 55px 0 70px;}
+.contents .waycome [class*=way-] {position: relative;}
+.contents .waycome .way-info {}
+.contents .waycome .way-info .p-1 {margin-top: 30px; font-size: 22px; font-weight: 700;}
+.contents .waycome .way-info dl {font-size: 18px; line-height: 1.6;}
+.contents .waycome .way-info dt {font-weight: 700; margin-top: 3px;}
+.contents .waycome .way-info dd {padding-left: 5px;}
+.contents .waycome .way-info {float: left;}
+.contents .waycome .way-map {float: right;}

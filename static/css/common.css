@@ -4,6 +4,7 @@
 
 
 body {font-family: 'Nanum Square', 'NanumSquare', 'Nanum Gothic', 'Malgun Gothic', sans-serif; line-height:1.3; letter-spacing: -0.3px; color: #434343;}
+/*body {font-family: 'NanumSquare', 'Nanum Square', 'Nanum Gothic', 'Malgun Gothic', sans-serif; line-height:1.3; letter-spacing: -0.3px; color: #434343;}*/
 img {max-width: 100%;}
 a {color: inherit;}
 label {cursor: pointer;}
