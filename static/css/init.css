@@ -1,9 +1,6 @@
 @charset "utf-8";
 
 
-/*콘텐츠영역*/
-.contents {position: relative;}
-
 /*메인비쥬얼*/
 .contents .main {}
 .contents .main .slide {padding-top: 205px; box-sizing: border-box; color: #fff; height: 894px;}
@@ -12,8 +9,8 @@
 .contents .main .slide .mainTxt h2 {font-size: 66px; margin-top: 5px; letter-spacing: -2px;}
 .contents .main .slide .mainTxt .p-2 {font-size: 16px; margin-top: 10px;}
 .contents .main .slide .mainTxt .p-3 {font-size: 18px; padding-top: 38px; line-height: 1.4;}
-.contents .main .slide-1 {background: url(../../img/mv_1.jpg) no-repeat center;}
-.contents .main .slide-2 {background: url(../../img/mv_2.jpg) no-repeat center;}
+.contents .main .slide-1 {background: #eee url(../../img/mv_1.jpg) no-repeat center;}
+.contents .main .slide-2 {background: #eee url(../../img/mv_2.jpg) no-repeat center;}
 .contents .main .weather {position: absolute; top: 213px; left: 50%; margin-left: -590px; width: 1180px;}
 .contents .main .weather .area {position: absolute; right: -15px; width: 270px; height: 96px; border-left: 1px solid #fff; padding-left: 20px; box-sizing: border-box;}
 .contents .main .weather .area [class*=s-] {display: block; color: #fff; font-size: 20px;}
@@ -49,14 +46,19 @@
 .contents .event .area {margin-top: 12px;}
 .contents .event .area .evt-img {float: left; border: 1px solid #b0ada8;}
 .contents .event .area .evt-info {float: right; width: 380px;}
-.contents .event .area .evt-info .h3-tit {font-size: 26px; color: #5a5a5a; font-weight: 700; margin-top: -3px; padding-bottom: 12px; border-bottom: 1px solid #a8a8a8;}
+.contents .event .area .evt-info .h3-tit {font-size: 26px; color: #5a5a5a; font-weight: 700; margin-top: -3px; padding-bottom: 12px; border-bottom: 1px solid #a8a8a8; word-break: keep-all;}
 .contents .event .area .evt-info .detail {padding-top: 5px;}
 .contents .event .area .evt-info dl {margin-top: 10px; font-size: 20px; line-height: 1.5;}
 .contents .event .area .evt-info dl:after {content: ""; display: table; clear: both;}
 .contents .event .area .evt-info dt, .contents .event .area .evt-info dd {float: left;}
 .contents .event .area .evt-info dt {color: #008ead; font-weight: 700;}
 .contents .event .area .evt-info dd {margin-left: 25px; color: #000;}
+.contents .event .area .evt-info .h3-tit,
+.contents .event .area .evt-info dd {letter-spacing: -0.5px;}
 .contents .event .showing {font-size: 18px; color: #4c4c4c; margin-top: 25px; line-height: 1.5;}
+.contents .event .area .evt-info .h3-tit,
+.contents .event .area .evt-info dd,
+.contents .event .showing {letter-spacing: -0.9px;}
 
 /*관광지*/
 .contents .tourist {background: #fff;}

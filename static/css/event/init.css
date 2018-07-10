@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+/*공통스타일*/
+.contents .cmStyle {padding: 50px 0;}
+.contents .cmStyle .tit {font-size: 34px;}
+.contents .cmStyle .tit .sampo {text-transform: uppercase; font-size: 16px; display: block; text-indent: 2px; margin-bottom: 2px;}
+.contents .cmStyle .tit .plus {position: relative; display: inline-block; width: 42px; height: 42px; box-sizing: border-box; border: 1px solid #a8a8a8; border-radius: 50%; vertical-align: middle; background: #fff; top: -4px; margin-left: 5px;}
+.contents .cmStyle .tit .plus .obj {display: block; position: relative; width: 100%; height: 100%;}
+.contents .cmStyle .tit .plus .obj:before, .contents .cmStyle .tit .plus .obj:after {content: ""; display: block; position: absolute;}
+.contents .cmStyle .tit .plus .obj:before {width: 15px; height: 1px; background: #a4a4a4; left: 50%; margin-left: -7px; top: 50%;}
+.contents .cmStyle .tit .plus .obj:after {width: 1px; height: 15px; background: #a4a4a4; left: 50%; margin-top: -7px; top: 50%;}
+
+
+/*이벤트*/
+.contents .event:nth-child(2n-1) {background: #f1f1f1;}
+.ie8 .contents .ocKite, .ie8 .contents .kite {background: #f1f1f1;}
+
+.contents .event .area {margin-top: 12px;}
+.contents .event .area .evt-img {float: left; border: 1px solid #b0ada8;}
+.contents .event .area .evt-info {float: right; width: 380px;}
+.contents .event .area .evt-info .h3-tit {font-size: 26px; color: #5a5a5a; font-weight: 700; margin-top: -3px; padding-bottom: 12px; border-bottom: 1px solid #a8a8a8; word-break: keep-all;}
+.contents .event .area .evt-info .detail {padding-top: 5px;}
+.contents .event .area .evt-info dl {margin-top: 10px; font-size: 20px; line-height: 1.5;}
+.contents .event .area .evt-info dl:after {content: ""; display: table; clear: both;}
+.contents .event .area .evt-info dt, .contents .event .area .evt-info dd {float: left;}
+.contents .event .area .evt-info dt {color: #008ead; font-weight: 700;}
+.contents .event .area .evt-info dd {margin-left: 25px; color: #000;}
+.contents .event .showing {font-size: 18px; color: #4c4c4c; margin-top: 25px; line-height: 1.5;}
+.contents .event .area .evt-info .h3-tit,
+.contents .event .area .evt-info dd,
+.contents .event .showing {letter-spacing: -0.9px;}
