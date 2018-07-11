@@ -28,13 +28,13 @@ label {cursor: pointer;}
 .contents {position: relative;}
 .container:before, .container:after {content: ""; display: table;}
 .container:after {clear: both;}
-.container {position: relative; width: 1180px; margin: 0 auto;}
+.container {position: relative; width: 96%; margin: 0 auto;}
 .f-bd {font-weight: 700;}
 .f-bdr {font-weight: 800;}
 .wrap {box-sizing: border-box;}
 
 /*공통 서브비쥬얼*/
-.contents .subVisual {padding-top: 140px; box-sizing: border-box; color: #fff; height: 318px; background: #eee url(../../img/event/subVisual.jpg) no-repeat center;}
+.contents .subVisual {padding-top: 140px; box-sizing: border-box; color: #fff; height: 318px; background: #eee url(../../img/m/event/subVisual.jpg) no-repeat center;}
 .contents .subVisual .mainTxt {text-align: right;}
 .contents .subVisual .mainTxt > * {text-shadow: 3px 3px 2px rgba(0,0,0, .25); letter-spacing: -0.7px;}
 .contents .subVisual .mainTxt .p-1 {font-size: 22px;font-weight: 700;}
@@ -55,11 +55,10 @@ label {cursor: pointer;}
 .wrapper .wrap .menu > li:last-child > a {padding-right: 0;}
 
 /*푸터영역*/
-.footer {position: relative; background: #576480; padding: 35px 0 50px;}
-.footer .wrap .logo, .footer .wrap address {float: left;}
-.footer .wrap .logo {width: 150px; margin-right: 20px;}
-.footer .wrap address {width: 550px; color: #fff; font-size: 15px; line-height: 1.6;}
+.footer {position: relative; background: #576480; padding: 20px 0 35px; text-align: center;}
+/*.footer .wrap .logo, .footer .wrap address {float: left;}*/
+.footer .wrap {}
+.footer .wrap .logo {margin-bottom: 5px;}
+.footer .wrap .logo img {width: 130px;}
+.footer .wrap address {color: #fff; font-size: 12px; line-height: 1.6; word-break: keep-all;}
 .footer .wrap address small {text-transform: uppercase;}
-
-.wrapper .footer .wrap .gnb {position: relative; float: right; margin-top: -13px;}
-.wrapper .footer .wrap .menu > li > a {font-size: 16px;}

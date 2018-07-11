@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+/*공통스타일*/
+.contents .wrap.cmStyle {padding: 60px 0 80px;}
+
+/*서브비쥬얼*/
+.contents .subVisual {background: #eee url(../../../img/board/subVisual.jpg) no-repeat center;}
+
+/*게시판 list*/
+.contents .board {}
+.contents .board .tb-list {position: relative; width: 100%; font-size: 18px;}
+.contents .board .tb-list col.nth-1 {width: 10%;}
+.contents .board .tb-list col.nth-2 {width: 75%;}
+.contents .board .tb-list col.nth-3 {width: 15%;}
+.contents .board .tb-list th, .contents .board .tb-list td {padding: 15px 0px; text-align: center;}
+.ie8 .contents .board .tb-list td:first-child + td,
+.contents .board .tb-list td:nth-child(2) {text-align: left;}
+.contents .board .tb-list thead tr {background: #f2f2f2; border-top: 1px solid #3c3b3b; border-bottom: 1px solid #d9d9d9;}
+.contents .board .tb-list tbody tr {border-bottom: 1px solid #d9d9d9;}
+.contents .board .pagenation {text-align: center; font-size: 0; margin-top: 50px;}
+.contents .board .pagenation a {display: inline-block; font-size: 13px; width: 32px; height: 32px; vertical-align: middle; line-height: 2.3em; border: 1px solid #d9d9d9; border-left: 0; color: #d2d2d2; font-family: "Nanum Gothic"; font-weight: 600; }
+.contents .board .pagenation a[class*="prev"], .contents .board .pagenation a[class*="next"] {font-size: 12px; line-height: 2.5em; letter-spacing: -2px;}
+.contents .board .pagenation a:hover, .contents .board .pagenation a.on {background: #d2d2d2; color: #fff;}
+.contents .board .pagenation a.prev, .contents .board .pagenation a.next {background: #d2d2d2; color: #595959;}
+.contents .board .pagenation a.prev {text-indent: -4px; margin-right: 5px;}
+.contents .board .pagenation a.next {text-indent: 1px; margin-left: 5px;}
+
+/*게시판 read*/
+.contents .board .tb-read {font-size: 18px;}
+.contents .board .tb-read th {padding: 15px 10px 15px 25px; font-size: 20px;}
+.contents .board .tb-read td {padding: 40px; line-height: 1.8;}
+.contents .board .tb-read thead tr {border-top: 1px solid #3c3b3b; border-bottom: 1px solid #d9d9d9;}
+.contents .board .tb-read tbody tr {border-bottom: 1px solid #d9d9d9;}
+.contents .board .tb-read thead tr th .flt-r {float: right;}
+.contents .board .row-btn {margin-top: 30px; text-align: center;}
+.contents .board .row-btn .btn-list {display: inline-block; font-size: 20px; border: 1px solid #b7b7b7; border-radius: 25px; padding: 8px 62px;}
