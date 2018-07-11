@@ -34,7 +34,7 @@ label {cursor: pointer;}
 .wrap {box-sizing: border-box;}
 
 /*공통 서브비쥬얼*/
-.contents .subVisual {padding-top: 140px; box-sizing: border-box; color: #fff; height: 318px; background: #eee url(../../img/event/subVisual.jpg) no-repeat center;}
+.contents .subVisual {padding-top: 140px; box-sizing: border-box; color: #fff; height: 318px; background: #eee url(http://img.sampobeach.co.kr/event/subVisual.jpg) no-repeat center;}
 .contents .subVisual .mainTxt {text-align: right;}
 .contents .subVisual .mainTxt > * {text-shadow: 3px 3px 2px rgba(0,0,0, .25); letter-spacing: -0.7px;}
 .contents .subVisual .mainTxt .p-1 {font-size: 22px;font-weight: 700;}
@@ -42,7 +42,7 @@ label {cursor: pointer;}
 .contents .subVisual .mainTxt .p-2 {font-size: 16px; margin-top: 5px;}
 
 /*해더영역*/
-.header {position: absolute; top: 0; left: 0; width: 100%; z-index: 1;}
+.header {position: absolute; top: 0; left: 0; width: 100%; z-index: 99;}
 .header .wrap {padding-top: 35px;}
 .header .wrap .logo {float: left;}
 

@@ -9,9 +9,9 @@
 .contents .main .slide .mainTxt h2 {font-size: 66px; margin-top: 5px; letter-spacing: -2px;}
 .contents .main .slide .mainTxt .p-2 {font-size: 16px; margin-top: 10px;}
 .contents .main .slide .mainTxt .p-3 {font-size: 18px; padding-top: 38px; line-height: 1.4;}
-.contents .main .slide-1 {background: #eee url(../../img/mv_1.jpg) no-repeat center;}
-.contents .main .slide-2 {background: #eee url(../../img/mv_2.jpg) no-repeat center;}
-.contents .main .weather {position: absolute; top: 213px; left: 50%; margin-left: -590px; width: 1180px;}
+.contents .main .slide-1 {background: #eee url(http://img.sampobeach.co.kr/mv_1.jpg) no-repeat center;}
+.contents .main .slide-2 {background: #eee url(http://img.sampobeach.co.kr/mv_2.jpg) no-repeat center;}
+.contents .main .weather {position: absolute; top: 213px; left: 50%; margin-left: -590px; width: 1180px; z-index: 99;}
 .contents .main .weather .area {position: absolute; right: -15px; width: 270px; height: 96px; border-left: 1px solid #fff; padding-left: 20px; box-sizing: border-box;}
 .contents .main .weather .area [class*=s-] {display: block; color: #fff; font-size: 20px;}
 .contents .main .weather .area .s-1 {line-height: 1;}
@@ -33,7 +33,7 @@
 
 
 /*이벤트*/
-.contents .event {background: url(../../img/bg_event.jpg) repeat center;}
+.contents .event {background: url(http://img.sampobeach.co.kr/bg_event.jpg) repeat center;}
 /*
 .contents .event .tit {font-size: 34px;}
 .contents .event .tit .sampo {text-transform: uppercase; font-size: 16px; display: block; text-indent: 2px; margin-bottom: 2px;}

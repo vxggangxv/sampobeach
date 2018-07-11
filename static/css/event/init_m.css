@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 
-/*서브비쥬얼*/
-.contents .subVisual {background: #eee url(../../../img/event/subVisual.jpg) no-repeat center;}
-
 /*공통스타일*/
 .contents .wrap.cmStyle {padding: 50px 0;}
+
+/*서브비쥬얼*/
+.contents .subVisual {background: #eee url(../../../img/m/event/subVisual.jpg) no-repeat center 60% /cover;}
 
 /*이벤트*/
 .contents .event:nth-child(2n-1) {background: #f1f1f1;}
