@@ -2,26 +2,27 @@
 
 
 /*공통스타일*/
-.contents .wrap.cmStyle {padding: 50px 0;}
+.contents .wrap.cmStyle {padding: 17px 0 20px;}
 
 /*서브비쥬얼*/
-.contents .subVisual {background: #eee url(../../../img/m/event/subVisual.jpg) no-repeat center 60% /cover;}
+.contents .subVisual {background: #eee url(http://img.sampobeach.co.kr/m/event/subVisual.jpg) no-repeat center 60% /cover;}
 
 /*이벤트*/
 .contents .event:nth-child(2n-1) {background: #f1f1f1;}
 .ie8 .contents .evt-2, .ie8 .contents .evt-4 {background: #f1f1f1;}
 
-.contents .event .area {margin-top: 12px;}
-.contents .event .area .evt-img {float: left; border: 1px solid #b0ada8;}
-.contents .event .area .evt-info {float: right; width: 380px;}
-.contents .event .area .evt-info .h3-tit {font-size: 26px; color: #5a5a5a; font-weight: 700; margin-top: -3px; padding-bottom: 12px; border-bottom: 1px solid #a8a8a8; word-break: keep-all;}
-.contents .event .area .evt-info .detail {padding-top: 5px;}
-.contents .event .area .evt-info dl {margin-top: 10px; font-size: 20px; line-height: 1.5;}
+.contents .event .area {}
+.contents .event .area .h3-tit {font-size: 14px; color: #5a5a5a; font-weight: 700; padding-bottom: 5px; word-break: keep-all; text-align: center;}
+.contents .event .area .evt-img {border: 1px solid #b0ada8;}
+.contents .event .area .evt-img img {width: 100%;}
+.contents .event .area .evt-info {}
+.contents .event .area .evt-info .detail {padding-top: 3px;}
+.contents .event .area .evt-info dl {margin-top: 5px; font-size: 13px; line-height: 1.5;}
 .contents .event .area .evt-info dl:after {content: ""; display: table; clear: both;}
-.contents .event .area .evt-info dt, .contents .event .area .evt-info dd {float: left;}
+.contents .event .area .evt-info dt, .contents .event .area .evt-info dd {display: inline-block;}
 .contents .event .area .evt-info dt {color: #008ead; font-weight: 700;}
-.contents .event .area .evt-info dd {margin-left: 25px; color: #000;}
-.contents .event .showing {font-size: 18px; color: #4c4c4c; margin-top: 25px; line-height: 1.5;}
-.contents .event .area .evt-info .h3-tit,
+.contents .event .area .evt-info dd {margin-left: 10px; color: #000;}
+.contents .event .showing {font-size: 12px; color: #4c4c4c; margin-top: 10px; padding-top: 10px; border-top: 1px solid #d2d2d2; line-height: 1.5;}
+.contents .event .area .h3-tit,
 .contents .event .area .evt-info dd,
 .contents .event .showing {letter-spacing: -0.9px;}

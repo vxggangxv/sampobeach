@@ -12,8 +12,8 @@
 .contents .main .slide .mainTxt .p-3 {font-size: 12px; padding-top: 9px; line-height: 1.4;}
 
 .contents .main .slide {height: 350px;}
-.contents .main .slide-1 {background: #eee url(../../img/m/mv_1.jpg) no-repeat center 80% / cover;}
-.contents .main .slide-2 {background: #eee url(../../img/m/mv_2.jpg) no-repeat center 100% / cover;}
+.contents .main .slide-1 {background: #eee url(http://img.sampobeach.co.kr/m/mv_1.jpg) no-repeat center 80% / cover;}
+.contents .main .slide-2 {background: #eee url(http://img.sampobeach.co.kr/m/mv_2.jpg) no-repeat center 100% / cover;}
 
 .contents .main .slide .mainTxt,
 .contents .main .weather {left: 7%;}
@@ -40,7 +40,7 @@
 */
 
 /*이벤트*/
-.contents .event {background: url(../../img/bg_event.jpg) repeat center;}
+.contents .event {background: url(http://img.sampobeach.co.kr/bg_event.jpg) repeat center;}
 /*
 .contents .event .tit {font-size: 34px;}
 .contents .event .tit .sampo {text-transform: uppercase; font-size: 16px; display: block; text-indent: 2px; margin-bottom: 2px;}
@@ -54,18 +54,17 @@
 .contents .event .area .evt-img {border: 1px solid #b0ada8;}
 .contents .event .area .evt-img img {width: 100%;}
 .contents .event .area .evt-info {}
-.contents .event .area .evt-info .h3-tit {position: relative; font-size: 16px; color: #5a5a5a; font-weight: 700; margin-top: -3px; padding-bottom: 8px;  word-break: keep-all; text-align: center; margin-top: 10px;}
-.contents .event .area .evt-info .h3-tit:after {content: ""; display: block; position: absolute; width: 30%; bottom: 0; left: 35%; border-bottom: 1px solid #a8a8a8;}
+.contents .event .area .h3-tit {position: relative; font-size: 14px; color: #5a5a5a; font-weight: 700; padding-bottom: 8px;  word-break: keep-all; text-align: center; margin-top: 10px;}
+.contents .event .area .h3-tit:after {content: ""; display: block; position: absolute; width: 30%; bottom: 0; left: 35%; border-bottom: 1px solid #a8a8a8;}
 .contents .event .area .evt-info .detail {padding-top: 3px;}
 .contents .event .area .evt-info dl {margin-top: 5px; font-size: 13px; line-height: 1.5; text-align: center;}
 .contents .event .area .evt-info dl:after {content: ""; display: table; clear: both;}
 .contents .event .area .evt-info dt, .contents .event .area .evt-info dd {display: inline-block;}
 .contents .event .area .evt-info dt {color: #008ead; font-weight: 700;}
 .contents .event .area .evt-info dd {margin-left: 5px; color: #000;}
-.contents .event .area .evt-info .h3-tit,
 .contents .event .area .evt-info dd {letter-spacing: -0.5px;}
 .contents .event .showing {font-size: 18px; color: #4c4c4c; margin-top: 25px; line-height: 1.5;}
-.contents .event .area .evt-info .h3-tit,
+.contents .event .area .h3-tit,
 .contents .event .area .evt-info dd,
 .contents .event .showing {letter-spacing: -0.9px;}
 
