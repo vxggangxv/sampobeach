@@ -13,8 +13,9 @@
 
 .contents .event .area {}
 .contents .event .area .h3-tit {font-size: 14px; color: #5a5a5a; font-weight: 700; padding-bottom: 5px; word-break: keep-all; text-align: center;}
-.contents .event .area .evt-img {border: 1px solid #b0ada8;}
-.contents .event .area .evt-img img {width: 100%;}
+.contents .event .area .evt-img {position: relative;}
+.contents .event .area .evt-img img {display: block; width: 100%; box-sizing: border-box; border: 1px solid #b0ada8;}
+.contents .event .area .evt-img iframe {width: 100%; height: 174px; margin-top: 10px;}
 .contents .event .area .evt-info {}
 .contents .event .area .evt-info .detail {padding-top: 3px;}
 .contents .event .area .evt-info dl {margin-top: 5px; font-size: 13px; line-height: 1.5;}

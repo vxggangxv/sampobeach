@@ -8,7 +8,7 @@
 .contents .subVisual {background: #eee url(http://img.sampobeach.co.kr/board/subVisual.jpg) no-repeat center;}
 
 /*게시판 list*/
-.contents .board {mih-height: 530px;}
+.contents .board {min-height: 530px;}
 .contents .board .tb-list {position: relative; width: 100%; font-size: 18px;}
 .contents .board .tb-list col.nth-1 {width: 10%;}
 .contents .board .tb-list col.nth-2 {width: 75%;}

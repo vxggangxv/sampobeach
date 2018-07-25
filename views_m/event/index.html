@@ -13,6 +13,7 @@
 	
 	<!--css-->
 	<link rel="stylesheet" href="http://static.sampobeach.co.kr/css/event/init_m.css">
+<!--	<link rel="stylesheet" href="../../static/css/event/init_m.css">-->
 	
 	<!--js-->
 	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -59,7 +60,27 @@
 				<div class="container">
 					<div class="area cf">
 						<h3 class="h3-tit">2018 미드나잇 피크닉 페스티벌</h3>
-						<figure class="evt-img"><img src="http://img.sampobeach.co.kr/event/midnight.jpg" alt="미드나잇피크닉"></figure>
+						<figure class="evt-img">
+							<img src="http://img.sampobeach.co.kr/event/midnight.jpg" alt="미드나잇피크닉">
+							<iframe src="https://www.youtube.com/embed/n0foR1sU99Y?autoplay=1" frameborder="0" allowfullscreen></iframe>
+							<script type="text/javascript">
+								$(window).resize(function() {
+									resizeYoutube();
+								});
+								$(function() {
+									resizeYoutube();
+								});
+
+								function resizeYoutube() {
+									$("iframe").each(function() {
+										if (/^https?:\/\/www.youtube.com\/embed\//g.test($(this).attr("src"))) {
+											$(this).css("width", "100%");
+											$(this).css("height", Math.ceil(parseInt($(this).css("width")) * 480 / 854) + "px");
+										}
+									});
+								}
+							</script>
+						</figure>
 						<div class="evt-info">
 							<div class="detail">
 								<dl> 
