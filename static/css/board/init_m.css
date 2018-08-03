@@ -2,10 +2,13 @@
 
 
 /*공통스타일*/
-.contents .wrap.cmStyle {padding: 20px 0 30px;}
+.contents .wrap.cmStyle {padding: 20px 20px 30px;}
 
 /*서브비쥬얼*/
 .contents .subVisual {background: #eee url(http://img.sampobeach.co.kr/m/board/subVisual.jpg) no-repeat center 60% /cover;}
+
+/* 게시판 너비 */
+.contents .board .container {position: relative; box-sizing:border-box; width: 100%; margin: 0 auto;} 
 
 /*게시판 list*/
 .contents .board {min-height: 330px;}
@@ -26,9 +29,9 @@
 .contents .board .pagenation a.next {text-indent: 1px; margin-left: 5px;}
 
 /*게시판 read*/
-.contents .board .tb-read {font-size: 12px;}
-.contents .board .tb-read th {padding: 10px 5px; font-size: 12.5px;}
-.contents .board .tb-read td {padding: 10px; line-height: 1.6; word-break: keep-all;}
+.contents .board .tb-read {}
+.contents .board .tb-read th {padding: 10px 10px; font-size: 12.5px;}
+.contents .board .tb-read td {padding: 10px; font-size: 12.5px; line-height: 1.6; word-break: keep-all;}
 .contents .board .tb-read thead tr {border-top: 1px solid #3c3b3b; border-bottom: 1px solid #d9d9d9; background: #f2f2f2;}
 .contents .board .tb-read tbody tr {border-bottom: 1px solid #d9d9d9;}
 .contents .board .tb-read thead tr th .flt-r {float: right; margin-left: 5px;}

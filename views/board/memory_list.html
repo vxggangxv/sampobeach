@@ -12,10 +12,14 @@
 	<link rel="stylesheet" href="http://cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
 	<link rel="stylesheet" href="http://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 	<link rel="stylesheet" href="http://static.sampobeach.co.kr/css/reset.css">
-	<link rel="stylesheet" href="http://static.sampobeach.co.kr/css/common.css">
 	
 	<!--css-->
+<!--
+	<link rel="stylesheet" href="http://static.sampobeach.co.kr/css/common.css">
 	<link rel="stylesheet" href="http://static.sampobeach.co.kr/css/board/init.css">
+-->
+	<link rel="stylesheet" href="../../static/css/common.css">
+	<link rel="stylesheet" href="../../static/css/board/init.css">
 	
 	<!--js-->
 	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -38,77 +42,97 @@
 						<li class="item-2"><a href="">축제 이벤트</a></li>
 						<li class="item-3"><a href="">오시는 길</a></li>
 						<li class="item-4"><a href="">주변관광</a></li>
-						<li class="item-5"><a href="">공지사항</a></li>
+						<li class="item-5"><a href="">추억게시판</a></li>
+						<li class="item-6"><a href="">공지사항</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 		
 		<div class="contents">
-		
-			<section class="wrap subVisual">
+			<section class="wrap subVisual board-memory">
 				<div class="mainTxt container">
-					<p class="p-1">닿는 발길마다 매력 넘치는 고성</p>
-					<h2><span class="f-bd">삼포해변</span> 공지사항</h2>
+					<p class="p-1">행복했던 어제, 즐거웠던 기억을 남겨보세요</p>
+					<h2><span class="f-bd">삼포해변</span> 추억게시판</h2>
 					<p class="p-2"><span class="f-bdr">SAMPO</span> BEACH</p>
 				</div>
 			</section>
-			<section class="wrap cmStyle board">
+			<section class="wrap cmStyle board board-memory">
 				<div class="container">
-					<div class="area">
+					<div class="area area-1">
 						<table class="tbStyle tb-list">
 							<colgroup>
 								<col class="nth-1">
 								<col class="nth-2">
 								<col class="nth-3">
+								<col class="nth-4">
+								<col class="nth-5">
 							</colgroup>
 							<thead>
 								<tr>
 									<th>번호</th>
 									<th>제목</th>
+									<th>작성자</th>
 									<th>작성일</th>
+									<th>조회수</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
 									<td>8</td>
-									<td>삼포비치 홈페이지가 그랜드 오픈되었습니다.</td>
+									<td><a href="">삼포해변 축제에서 즐거웠던 시간</a></td>
+									<td>고성맨</td>
 									<td>2018.07.03</td>
+									<td>12345</td>
 								</tr>
 								<tr>
 									<td>7</td>
-									<td>반짝이는 백사장 위로 쏟아지는 별빛을 볼 수 있는 삼포비치 홈페이지</td>
+									<td><a href="">조개잡이가 이렇게 재미있는 것일 줄이야... 완전행복</a></td>
+									<td>오션매니아</td>
 									<td>2018.07.03</td>
+									<td>12345</td>
 								</tr>
 								<tr>
 									<td>6</td>
-									<td>삼포비치 홈페이지가 그랜드 오픈되었습니다.</td>
+									<td><a href="">여기선 오션투유리조트가 완전 딱이군요.</a></td>
+									<td>바다소년</td>
 									<td>2018.07.03</td>
+									<td>12345</td>
 								</tr>
-								<tr>
+								<tr class="reply">
 									<td>5</td>
-									<td>반짝이는 백사장 위로 쏟아지는 별빛을 볼 수 있는 삼포비치 홈페이지</td>
+									<td><a href=""><span class="re">RE</span> 방문해 주셔서 감사합니다.</a></td>
+									<td>오션투유매니저</td>
 									<td>2018.07.03</td>
+									<td>12345</td>
 								</tr>
 								<tr>
 									<td>4</td>
-									<td>삼포비치 홈페이지가 그랜드 오픈되었습니다.</td>
+									<td><a href="">조개잡이가 이렇게 재미있는 것일 줄이야... 완전행복</a></td>
+									<td>오션매니아</td>
 									<td>2018.07.03</td>
+									<td>12345</td>
 								</tr>
 								<tr>
 									<td>3</td>
-									<td>반짝이는 백사장 위로 쏟아지는 별빛을 볼 수 있는 삼포비치 홈페이지</td>
+									<td><a href="">여기선 오션투유리조트가 완전 딱이군요.</a></td>
+									<td>바다소년</td>
 									<td>2018.07.03</td>
+									<td>12345</td>
 								</tr>
 								<tr>
 									<td>2</td>
-									<td>삼포비치 홈페이지가 그랜드 오픈되었습니다.</td>
+									<td><a href="">삼포해변 축제에서 즐거웠던 시간</a></td>
+									<td>고성맨</td>
 									<td>2018.07.03</td>
+									<td>12345</td>
 								</tr>
 								<tr>
 									<td>1</td>
-									<td>반짝이는 백사장 위로 쏟아지는 별빛을 볼 수 있는 삼포비치 홈페이지</td>
+									<td><a href="">조개잡이가 이렇게 재미있는 것일 줄이야... 완전행복</a></td>
+									<td>오션매니아</td>
 									<td>2018.07.03</td>
+									<td>12345</td>
 								</tr>
 							</tbody>
 						</table>
@@ -119,6 +143,18 @@
 							<a href="">3</a>
 							<a class="next" href="">&gt;</a>
 						</div>
+						<button type="button" class="appe-reset btn-write">글쓰기</button>
+					</div>
+					<div class="row-search">
+						<div class="sltDiv">
+							<span class="sltArr"></span>
+							<select name="" id="" class="category appe-reset">
+								<option value="">제목</option>
+								<option value="">키워드</option>
+							</select>
+						</div>
+						<input type="text" value="" class="appe-reset keword">
+						<input type="button" value="검색" class="appe-reset btn-search">
 					</div>
 				</div>
 			</section>
@@ -140,7 +176,8 @@
 						<li class="item-2"><a href="">축제 이벤트</a></li>
 						<li class="item-3"><a href="">오시는 길</a></li>
 						<li class="item-4"><a href="">주변관광</a></li>
-						<li class="item-5"><a href="">공지사항</a></li>
+						<li class="item-5"><a href="">추억게시판</a></li>
+						<li class="item-6"><a href="">공지사항</a></li>
 					</ul>
 				</nav>
 			</div>

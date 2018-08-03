@@ -23,7 +23,7 @@
 .contents .event .area .evt-info dt, .contents .event .area .evt-info dd {float: left;}
 .contents .event .area .evt-info dt {color: #008ead; font-weight: 700;}
 .contents .event .area .evt-info dd {margin-left: 25px; color: #000;}
-.contents .event .showing {font-size: 18px; color: #4c4c4c; margin-top: 25px; line-height: 1.5;}
+.contents .event .showing {font-size: 18px; color: #4c4c4c; margin-top: 25px; line-height: 1.8;}
 .contents .event .area .evt-info .h3-tit,
 .contents .event .area .evt-info dd,
 .contents .event .showing {letter-spacing: -0.9px;}

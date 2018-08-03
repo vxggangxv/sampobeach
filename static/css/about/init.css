@@ -21,4 +21,4 @@
 .contents .about .area figure.half {}
 .contents .about .area figure.half img:first-child {margin-right: 34px;}
 .contents .about .area figure img {box-sizing: border-box; border: 1px solid #bdbbbb;}
-.contents .about .area .showing {margin-top: 30px; font-size: 20px; letter-spacing: -0.7px; font-family: "NanumSquare", sans-serif;}
+.contents .about .area .showing {margin-top: 30px; font-size: 20px; line-height:1.5; letter-spacing: -0.7px; font-family: "NanumSquare", sans-serif;}

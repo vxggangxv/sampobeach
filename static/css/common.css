@@ -31,7 +31,9 @@ label {cursor: pointer;}
 .container {position: relative; width: 1180px; margin: 0 auto;}
 .f-bd {font-weight: 700;}
 .f-bdr {font-weight: 800;}
+.appe-reset {font-family: "Nanum Square", sans-serif;}
 .wrap {box-sizing: border-box;}
+.area {position: relative;}
 
 /*공통 서브비쥬얼*/
 .contents .subVisual {padding-top: 140px; box-sizing: border-box; color: #fff; height: 318px; background: #eee url(http://img.sampobeach.co.kr/event/subVisual.jpg) no-repeat center;}
@@ -48,7 +50,7 @@ label {cursor: pointer;}
 
 .wrapper .wrap .gnb {position: relative; float: right; top: 15px;}
 .wrapper .wrap .menu > li {position: relative; float: left;} 
-.wrapper .wrap .menu > li:before {content: ""; display: block; position: absolute; left: 0; top: 0; width: 1px; height: 60%; top: 18%; background: #fff;}
+.wrapper .wrap .menu > li:before {content: ""; display: block; position: absolute; left: 0; top: 0; width: 2px; height: 60%; top: 18%; background: #fff;}
 .wrapper .wrap .menu > li:first-child:before {display: none;}
 .wrapper .wrap .menu > li > a {display: block;  padding: 0 12px; color: #fff; font-size: 18px;}
 .wrapper .wrap .menu > li:first-child > a {padding-left: 0;}
@@ -62,4 +64,5 @@ label {cursor: pointer;}
 .footer .wrap address small {text-transform: uppercase;}
 
 .wrapper .footer .wrap .gnb {position: relative; float: right; margin-top: -13px;}
-.wrapper .footer .wrap .menu > li > a {font-size: 16px;}
+.wrapper .footer .wrap .menu > li > a {font-size: 14px; padding: 0 8px;}
+.wrapper .footer .wrap .menu > li:last-child > a {padding-right: 0;}
