@@ -59,6 +59,10 @@
 			</section>
 			<section class="wrap cmStyle board board-memory">
 				<div class="container">
+					<h2 class="tit hidden">
+						<span class="sampo"><span class="f-bd">SAMPO</span> BEACH</span>
+						<span class="f-bd">추억게시판 글쓰기</span>
+					</h2>
 					<div class="area area-1">
 						<table class="tbStyle tb-list">
 							<colgroup>
@@ -101,29 +105,37 @@
 								</tr>
 							</tbody>
 						</table>
-						<div class="pagenation" id="pagenation">
-							<a class="prev" href="">&lt;</a>
-							<a class="on" href="">1</a>
-							<a href="">2</a>
-							<a href="">3</a>
-							<a class="next" href="">&gt;</a>
+						<div class="row-btn cf">
+							<div class="left">
+								<button type="button" class="appe-reset btn-list">목록</button>
+								<button type="button" class="appe-reset btn-modif" onclick="$('#pwdWrapper').show()">수정</button>
+							</div>
+							<div class="right">
+								<button type="button" class="appe-reset btn-answer">답변</button>
+								<button type="button" class="appe-reset btn-write">글쓰기</button>
+							</div>
 						</div>
-						<button type="button" class="appe-reset btn-write">글쓰기</button>
-					</div>
-					<div class="row-search">
-						<div class="sltDiv">
-							<span class="sltArr"></span>
-							<select name="" id="" class="category appe-reset">
-								<option value="">제목</option>
-								<option value="">키워드</option>
-							</select>
-						</div>
-						<input type="text" value="" class="appe-reset keword">
-						<input type="button" value="검색" class="appe-reset btn-search">
 					</div>
 				</div>
 			</section>
-			
+		</div>
+		
+		<!--수정 시 패스워드 등장-->
+		<div class="popWrapper" id="pwdWrapper">
+			<div class="drop-bg"></div>
+			<section class="pop-password">
+				<div class="pop-header">
+					<h2>패스워드 입력</h2>
+					<a href="javascript: $('#pwdWrapper').hide()" class="btn-x"><span class="a-i-x a-x"></span></a>
+				</div>
+				<div class="pop-body">
+					<p class="p-1">작성시 입력하신 패스워드를 입력하세요.</p>
+					<div class="row-inp">
+						<input type="text" class="pwd appe-reset"> <button type="button" class="appe-reset btn-ok">확인</button>
+					</div>
+				</div>
+				
+			</section>
 		</div>
 		
 		

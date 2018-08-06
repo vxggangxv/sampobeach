@@ -19,7 +19,8 @@ function headFunc () {
 
 function scrollFunc () {
 	var btnTop	= $(".btn-top"),
-		top		= $(".main .slide").height();
+//		top		= $(".main .slide").height();
+		top		= 320;
 	$(window).scroll(function() {
 		var scr = $(window).scrollTop();
 		if ( scr > top ) {
