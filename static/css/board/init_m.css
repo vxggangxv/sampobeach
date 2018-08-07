@@ -39,8 +39,8 @@
 .contents .board .row-btn .btn-list {display: inline-block; font-size: 13px; border: 1px solid #d9d9d9; border-radius: 25px; padding: 5px 30px;}
 
 /*추억 게시판*/
-/*.contents .subVisual.board-memory {background: #eee url(http://img.sampobeach.co.kr/board/subVisual_bm.jpg) no-repeat center;}*/
-.contents .subVisual.board-memory {background: #eee url(../../../img/m/board/subVisual_bm.jpg) no-repeat right top /cover;}
+.contents .subVisual.board-memory {background: #eee url(http://img.sampobeach.co.kr/m/board/subVisual_bm.jpg) no-repeat right top / cover;}
+/*.contents .subVisual.board-memory {background: #eee url(../../../img/m/board/subVisual_bm.jpg) no-repeat right top /cover;}*/
 .contents .board-memory {}
 /*추억 게시판 list*/
 .contents .board-memory .tb-list tr.reply td a {text-indent: 15px;}
@@ -49,7 +49,7 @@
 .contents .board-memory .area-1 .row-btn {}
 .contents .board-memory .area-1 .row-btn .left {float: left;}
 .contents .board-memory .area-1 .row-btn .right {float: right;}
-.contents .board-memory .area-1 [class*=btn-] {background: #fff; border: 1px solid #b0b0b0; line-height: 1; padding: 7px 14px; border-radius: 30px; font-size: 13px; color: #676767; letter-spacing: -1px; min-width: 78px;}
+.contents .board-memory .area-1 [class*=btn-] {background: #fff; border: 1px solid #b0b0b0; line-height: 1; padding: 7px 14px; border-radius: 30px; font-size: 13px; color: #676767; letter-spacing: -1px; min-width: 68px;}
 .contents .board-memory .area-1 [class*=btn-]:first-child + button {margin-left: 1px;}
 /*.contents .board-memory .area-1 .pagenation + .row-btn .btn-write {position: absolute; right: 0; bottom: 0;}*/
 .contents .board-memory .row-search {text-align: center;}

@@ -40,8 +40,8 @@
 .contents .board .row-btn .btn-list {display: inline-block; font-size: 20px; border: 1px solid #b7b7b7; border-radius: 25px; padding: 8px 62px;}
 
 /*추억 게시판*/
-/*.contents .subVisual.board-memory {background: #eee url(http://img.sampobeach.co.kr/board/subVisual_bm.jpg) no-repeat center;}*/
-.contents .subVisual.board-memory {background: #eee url(../../../img/board/subVisual_bm.jpg) no-repeat center;}
+.contents .subVisual.board-memory {background: #eee url(http://img.sampobeach.co.kr/board/subVisual_bm.jpg) no-repeat center / cover;}
+/*.contents .subVisual.board-memory {background: #eee url(../../../img/board/subVisual_bm.jpg) no-repeat center;}*/
 .contents .board-memory {}
 /*추억 게시판 list*/
 .contents .board-memory .tb-list col.nth-1 {width: 10%;}
